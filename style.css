@@ -430,13 +430,18 @@ header {
     height: 85vh;
   }
 }
+
 header .imageContainer {
   width: 80%;
   max-width: 230px;
 }
+
 header .imageContainer img {
-  width: 100%;
+  width: 170%;
+  border-radius: 50%;
+  transform: translateX(-10%);
 }
+
 header .headerText {
   z-index: 1;
 }
@@ -744,10 +749,6 @@ main {
   color: #696969;
 }
 
-.portfolioProjects {
-  margin: 0 0 100px 0;
-  overflow: hidden;
-}
 
 video:hover {
   cursor: pointer;
